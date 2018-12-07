@@ -96,7 +96,7 @@ DATABASES = {
         'USER':'root',
         'PASSWORD':'root',
         'HOST':'127.0.0.1',
-        'PORT':'3307', #端口
+        'PORT':'3306', #端口
 
         #mysql的数据库引擎有InnoDB 和 myisam
         #第三方登录的库要求使用innodb 否则会migration出错。
